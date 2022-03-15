@@ -1,4 +1,5 @@
 #include <main.h>
+#include <_putchar.c>
 /**
  * main - entry point.
  * Description: program starts and ends here.
