@@ -6,7 +6,6 @@
  * _putchar print the characters given
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
         _putchar('_');
