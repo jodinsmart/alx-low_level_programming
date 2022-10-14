@@ -3,8 +3,8 @@
 #include <time.h>
 /**
  * main - main block
- * Description: prints "is it positive or negative or zero"
- * Return value: 0
+ * Description: prints "is it positive or negative"
+ * Return: 0
  */
 int main(void)
 {
