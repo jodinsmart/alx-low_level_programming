@@ -1,12 +1,18 @@
+#include <unistd.h>
 #include <stdio.h>
-
 /**
- * main - Print a string
- * Description: use printf
- * Return: 0
+ * main - Entry point
+ * Description: This program prints lowercase alphabets in reverse
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	printf("\n");
+	int a;
+
+	for (a = 'z'; a >= 'a'; a--)
+	{
+		putchar(a);
+	}
+	putchar('\n');
 	return (0);
 }
