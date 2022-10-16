@@ -1,12 +1,19 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - Print a string
- * Description: use printf
- * Return: 0
+ * main - Entry point
+ * Description:This program prints char below 10
+ * Return: Always 0 (confirmed)
  */
 int main(void)
 {
-	printf("\n");
-	return (0);
+	int a;
+
+	for (a = 0; a < 10; a++)
+
+	{
+		putchar(a + '0');
+	}
+		putchar('\n');
+		return (0);
 }
