@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  *  main - main block
- *  Description: Get a random number, check its last digit, compare it with 5
+ *  Description: You can only use the putchar function
  *  Return: 0
  */
 int main(void)
