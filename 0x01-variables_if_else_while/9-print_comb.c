@@ -1,12 +1,26 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - Print a string
- * Description: use printf
- * Return: 0
+ * main - Entry point
+ * Description: This prints number combinations
+ * Return: Always 0 (confirmed)
  */
 int main(void)
 {
-	printf("\n");
+	int i;
+
+	for (i = '0'; i <= '9' ; i++)
+	{
+		putchar(i);
+
+		if (i != '9')
+
+		{
+		putchar(',');
+		putchar(' ');
+		}
+	}
+
+	putchar('\n');
 	return (0);
 }
