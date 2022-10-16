@@ -1,12 +1,24 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - Print a string
- * Description: use printf
- * Return: 0
+ *  main - Entry point
+ *  Description: prints alphabets in lowercase, then uppercase
+ *  Return: Always 0 (confirmed)
  */
 int main(void)
 {
-	printf("\n");
-	return (0);
+	int ch;
+
+		for (ch = 'a'; ch <= 'z'; ch++)
+
+		{
+			putchar(ch);
+		}
+		for (ch = 'A'; ch <= 'Z'; ch++)
+
+		{
+			putchar(ch);
+		}
+		putchar('\n');
+		return (0);
 }
