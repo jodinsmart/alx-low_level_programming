@@ -1,12 +1,24 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - Print a string
- * Description: use printf
- * Return: 0
+ * main - Entry point
+ * Description: This program prints base 16 numbers
+ * Return: Always 0 (confirmed)
  */
 int main(void)
 {
-	printf("\n");
+	char c;
+	char d = '0';
+
+	while (d <= '9')
+	{
+		putchar(d);
+		d++;
+	}
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 	return (0);
 }
