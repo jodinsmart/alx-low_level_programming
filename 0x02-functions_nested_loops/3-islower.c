@@ -1,14 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
- */
-void print_alphabet(void);
+ * _islower - checks for a lowercase character
+ * @c: character that is going to be checked
+ * Return: 1 if is lowercase & 0 otherwise
+**/
 
-int main(void)
+int _islower(int c)
 {
-
-
+	return (c >= 97 && c <= 122);
 }
