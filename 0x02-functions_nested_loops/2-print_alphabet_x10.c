@@ -1,14 +1,11 @@
 #include "main.h"
+
 /**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
- */
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase.
+**/
 
-void print_alphabet_x10(void);
-
+void print_alphabet_x10(void)
 {
-
 	int i;
 	char c;
 
@@ -19,7 +16,6 @@ void print_alphabet_x10(void);
 			_putchar(c);
 		}
 
-
-	{_putchar ('\n');
-
+		_putchar('\n');
+	}
 }
