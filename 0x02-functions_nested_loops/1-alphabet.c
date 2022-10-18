@@ -1,20 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
+ * print_alphabet - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
-void print_alphabet(void);
 
-int main(void)
+void print_alphabet(void)
 {
-	int n;
+	char alp = 'a';
 
-	for (n = 'a'; n <= 'z'; n++)
+	while (alp <= 'z')
 	{
-		putchar(n);
+		_putchar (alp);
+		alp++;
+
 	}
-	putchar('\n');
-	return (0);
+	_putchar ('\n');
+
 }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
