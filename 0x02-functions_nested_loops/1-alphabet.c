@@ -1,25 +1,18 @@
 #include "main.h"
-
 /**
- * print_alphabet - check the code for ALX School students.
- *
- * Return: Always 0.
- */
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
+**/
 
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char c;
 
-	while (alp <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar (alp);
-		alp++;
+		_putchar (c);
 
 	}
+
 	_putchar ('\n');
 
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms

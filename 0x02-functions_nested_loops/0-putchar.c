@@ -1,14 +1,22 @@
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0 (Confirmed)
- */
-int main(void)
-{	
-	
-	char sc = "Smoov";
-	
-	printf("_putchar\n");
-	return (0);
+#include "main.h"
 
+/**
+ * main - prints _putchar, followed by a new line.
+ *
+ * Return: Always 0 (Success)
+**/
+
+int main(void)
+{
+	int i;
+	char c[] = "_putchar";
+
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(c[i]);
+	}
+
+	_putchar('\n');
+
+	return (0);
 }
