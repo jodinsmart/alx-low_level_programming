@@ -1,11 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
- */
-void print_alphabet(void);
+#include "main.h"
 
-int main(void)
+/**
+ * add - adds two integers and returns the result.
+ * @num1: int to be added to num2
+ * @num2: int to be added to num1
+ * Return: @a + @b
+**/
+
+int add(int num1, int num2)
 {
+		return (num1 + num2);
+}

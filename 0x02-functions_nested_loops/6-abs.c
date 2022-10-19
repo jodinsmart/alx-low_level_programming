@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
- */
-void print_alphabet(void);
+#include "main.h"
 
-int main(void)
+/**
+ * _abs - computes the absolute value of an integer
+ * @n: integer from which to get an absolute value
+ * Return: absolute value of @n
+**/
+
+int _abs(int n)
 {
+	return (n >= 0 ? n : n * -1);
+}

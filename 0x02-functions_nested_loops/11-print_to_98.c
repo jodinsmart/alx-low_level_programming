@@ -1,11 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
-/**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
- */
-void print_alphabet(void);
+#include "main.h"
 
-int main(void)
+/**
+ * print_to_98 - prints all natural numbers from n to 98, followed by new line.
+ * @n: print from this number
+**/
+
+void print_to_98(int n)
 {
+	int i = n;
+
+	while (i != 98)
+	{
+		printf("%d, ", i);
+
+		if (n < 98)
+		{
+			i++;
+		}
+		else
+		{
+			i--;
+		}
+	}
+
+	printf("98\n");
+}

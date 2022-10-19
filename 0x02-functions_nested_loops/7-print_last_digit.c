@@ -1,11 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
- */
-void print_alphabet(void);
+#include "main.h"
 
-int main(void)
+/**
+ * print_last_digit - prints the last digit of a number
+ * @n: the int to extract the last digit from
+ * Return: last digit of @n
+**/
+
+int print_last_digit(int n)
 {
+	int lastDigit = n % 10;
+
+	if (n < 0)
+	{
+		lastDigit *= -1;
+	}
+
+	_putchar(lastDigit + '0');
+
+	return (lastDigit);
+}

@@ -1,11 +1,34 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- *  main - main block
- *  Description: You can only use the putchar function
- *  Return: 0
- */
-void print_alphabet(void);
+#include "main.h"
 
-int main(void)
+/**
+ * times_table - prints the 9 times table, starting with 0.
+**/
+void times_table(void)
 {
+	int i, j, k;
+
+	for (i = 0; i <= 9; i++)
+	{
+		_putchar('0');
+
+		for (j = 1; j <= 9; j++)
+		{
+			_putchar(',');
+			_putchar(' ');
+			k = i * j;
+
+			if (k <= 9)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((k / 10) + '0');
+			}
+
+			_putchar((k % 10) + '0');
+		}
+
+		_putchar('\n');
+	}
+}
